@@ -1,5 +1,4 @@
 variable "components" {}
 variable "env" {}
-variable "pwd" {
-  default = "ExpenseApp@1"
-}
+variable "ssh_psw" {}
+variable "vault_token" {}
